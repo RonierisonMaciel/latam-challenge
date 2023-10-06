@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.2
 # Using the official Python latest image based on the Buster (Debian 10) release
-FROM python:latest
+FROM python:3.9-buster
 
 # Set the working directory inside the container to /app
 WORKDIR /app
